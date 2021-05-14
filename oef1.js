@@ -17,11 +17,17 @@ document.getElementById("toon").addEventListener("click" , sesam);
 
 
       let linebreak = document.createElement("br");
-      let br = document.createTextNode('<br />');
 
-      linebreak.appendChild(br);
+      let para1 = document.createElement("p");
+      let tekstvakinhoud = document.getElementById("tekstvak").value;
+      let inhoud = createTextNode(tekstvakinhoud);
 
-     document.getElementById("uitkomst1").innerHTML = document.getElementById("uitkomst1").innerHTML + document.getElementById("tekstvak").value + br;
+      para1.appendChild(inhoud);
+
+      document.getElementById
+
+   //   document.getElementById("uitkomst1").innerHTML = document.getElementById("uitkomst1").innerHTML + document.getElementById("tekstvak").value + linebreak;
+
 
 
 
